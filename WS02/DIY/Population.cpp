@@ -1,10 +1,3 @@
-/**
- * Name:			Angelo Dikon Wong
- * Student ID:		14802199
- * Seneca email:	adikon-wong@myseneca.ca
- * Section:			OOP244 - NGG
- **/
-
 #include "Population.h"
 #include <iostream>
 #include "cstring.h"
@@ -41,16 +34,6 @@ namespace sdds {
         }
         return ok;
     }
-
-    /*bool load(Population& pop) {
-        bool ok = false;
-        char PCODE[4];
-        if (read(PCODE) && read(pop.m_population)) {
-            strCpy(pop.m_postalCode, PCODE);
-            ok = true;
-        }
-        return ok;
-    }*/
     
     bool load(const char* FILEname) {
         bool ok = false;
@@ -108,13 +91,5 @@ namespace sdds {
         delete[] populations;
         populations = nullptr;
     }
-
-    /*void deallocateMemory() {
-        int i = 0;
-        for (i = 0; i < noOfPopulations; i++) {
-            delete[] populations;
-            populations = nullptr;
-        }
-    }*/
 
 }
