@@ -1,10 +1,3 @@
-/**
- * Name:			Angelo Dikon Wong
- * Student ID:		14802199
- * Seneca email:	adikon-wong@myseneca.ca
- * Section:			OOP244 - NGG
- **/
-
 #ifndef SDDS_POPULATION_H_
 #define SDDS_POPULATION_H_
 namespace sdds {
@@ -20,4 +13,4 @@ namespace sdds {
     void display();
 	void deallocateMemory();
 }
-#endif // SDDS_POPULATION_H_
+#endif
