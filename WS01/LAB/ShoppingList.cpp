@@ -1,9 +1,3 @@
-/**
- * Name: Angelo Dikon Wong
- * Student ID:148021199
- * Seneca email: adikon-wong@myseneca.ca
- * Section: OOP244 - NGG
- **/
 #include <iostream>
 #include "ShoppingList.h"
 #include "File.h"
