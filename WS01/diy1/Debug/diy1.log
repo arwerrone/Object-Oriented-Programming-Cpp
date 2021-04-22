@@ -1,4 +1,0 @@
-﻿  cstringTester.cpp
-C:\Users\angel\Desktop\AULAS\2 SEMESTRE\OOP 244\WS01\diy1\cstringTester.cpp(16,16): warning C4101: 'fadd': unreferenced local variable
-C:\Users\angel\Desktop\AULAS\2 SEMESTRE\OOP 244\WS01\diy1\cstringTester.cpp(15,9): warning C4101: 'str2': unreferenced local variable
-  diy1.vcxproj -> C:\Users\angel\Desktop\AULAS\2 SEMESTRE\OOP 244\WS01\diy1\Debug\diy1.exe
