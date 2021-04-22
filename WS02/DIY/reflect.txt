@@ -1,9 +1,0 @@
-/**
- * Name:			Angelo Dikon Wong
- * Student ID:		14802199
- * Seneca email:	adikon-wong@myseneca.ca
- * Section:			OOP244 - NGG
- **/
-
-
-The main difference that we can see between an in-parameter to an out-parameter is the information whether is from the caller to the function or the function to the caller, in the case of out-parameter, the information is passed from the function to its caller. Now the in-parameter the information is passed from the caller to the function. In this workshop, we can see an example in the main function where the caller gives the information "PCpopulations.csv" to the function, inside the function "display" we can see that within the code the function is calling another function and giving the information "populations[i]", so the function which is called will process and do its task and will keep doing it while the for loop doesn't end. I can claim that those functions I have just mentioned are in-parameter because the functions require a piece of information to work, and without this information, the function wouldn't work, it will break.
