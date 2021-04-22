@@ -1,12 +1,5 @@
-/**
- * Name:			Angelo Dikon Wong
- * Student ID:		14802199
- * Seneca email:	adikon-wong@myseneca.ca
- * Section:			OOP244 - NGG
- **/
-
 #include <iostream>
-#include "cstring.h"  // implemented in workshop 1 part 2 (DIY)
+#include "cstring.h"
 #include "Employee.h"
 #include "File.h"
 
