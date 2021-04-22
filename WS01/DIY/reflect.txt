@@ -1,10 +1,3 @@
-/**
- * Name:			Angelo Dikon Wong
- * Student ID:			14802199
- * Seneca email:		adikon-wong@myseneca.ca
- * Section:			OOP244 - NGG
- **/
-
 	In this workshop, I have coded my own string functions, instead of using the string library. Since c++ functions were not so different from C, I have taken it without a problem, however, I have done some mistakes while programming it, this is due to the lack of practice, probably. The first strings weren't that hard to code, but on the lasts strings I have got some struggling, mainly in the "strStr" this took me to look-up on the internet for further information, since I have never used this string before, I had difficulties understanding how this function works.
 
 	Ultimately my personal thoughts about the existing functions affirm my view and decisions on the way they should be handled.
