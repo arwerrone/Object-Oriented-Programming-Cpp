@@ -1,10 +1,3 @@
-/**
- * Name:			Angelo Dikon Wong
- * Student ID:		14802199
- * Seneca email:	adikon-wong@myseneca.ca
- * Section:			OOP244 - NGG
- **/
-
 #ifndef SDDS_EMPLOYEE_H_
 #define SDDS_EMPLOYEE_H_
 
@@ -24,4 +17,4 @@ namespace sdds {
     void display();
     void deallocateMemory();
 }
-#endif // SDDS_EMPLOYEE_H_
+#endif
