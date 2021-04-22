@@ -1,8 +1,7 @@
-#ifndef NAMESPACE_FILE_H // replace with relevant names
+#ifndef NAMESPACE_FILE_H
 #define NAMESPACE_FILE_H
 #include "ShoppingRec.h"
 
-// Your header file content goes here
 namespace sdds {
 
 	bool openFileForRead();
