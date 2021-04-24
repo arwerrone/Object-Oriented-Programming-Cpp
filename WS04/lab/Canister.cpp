@@ -1,14 +1,7 @@
-/**
- * Name:			Angelo Dikon Wong
- * Student ID:		148021199
- * Seneca email:	adikon-wong@myseneca.ca
- * Section: OOP244 - NGG
- **/
-
 #define _CRT_SECURE_NO_WARNINGS
 #include <istream>
 #include <iomanip>
-#include "cstring.h"  // using strLen, strCpy and strCmp 
+#include "cstring.h"
 #include "Canister.h"
 using namespace std;
 namespace sdds {
