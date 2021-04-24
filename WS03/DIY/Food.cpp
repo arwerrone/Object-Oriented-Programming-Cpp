@@ -1,10 +1,3 @@
-/**
- * Name:			Angelo Dikon Wong
- * Student ID:		14802199
- * Seneca email:	adikon-wong@myseneca.ca
- * Section:			OOP244 - NGG
- **/
-
 #include <iostream>
 #include "cstring.h"
 #include "Food.h"
@@ -37,18 +30,6 @@ namespace sdds {
 		return m_calories;
 	}
 
-	/*double Food::tax()const {
-		const double c_tax = 0.13;
-		double tax = 0;
-		if (m_taxed == true) {
-			tax = price() * c_tax;
-		}
-		else {
-			tax = 0;
-		}
-		return tax;
-	}*/
-
 	bool Food::isValid()const {
 		return f_name[0] != '\0';
 	}
@@ -62,20 +43,12 @@ namespace sdds {
 			cout.fill('.');
 			cout << f_name;
 			cout << " | ";
-			//////////////////////
-
 			cout.fill(' ');
 			cout.setf(ios::right);
 			cout.width(4);
-			//cout.precision(2);
-
-			//cout.setf(ios::fixed);
-
 			cout << m_calories;
 			cout << " | ";
-			//cout.unsetf(ios::fixed);
 			cout.unsetf(ios::right);
-
 			cout.width(10);
 			switch (m_time)
 			{
