@@ -8,11 +8,3 @@ int main() {
    A.display();
    return 0;
 }
-
-
-/*
-Output:
-| xxxxxxxxxxxxxxxxxxxx | xxxxxxx | xxx |
-| Hot dog buns........ |    4.99 | No  |
-
-*/
