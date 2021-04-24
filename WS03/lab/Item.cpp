@@ -1,10 +1,3 @@
-/**
- * Name:			Angelo Dikon Wong
- * Student ID:		14802199
- * Seneca email:	adikon-wong@myseneca.ca
- * Section:			OOP244 - NGG
- **/
-
 #include <iostream>
 #include "cstring.h"
 #include "Item.h"
@@ -62,7 +55,6 @@ namespace sdds {
 			cout.fill('.');
 			cout << m_itemName;
 			cout << " | ";
-			//////////////////////
 			cout.fill(' ');
 			cout.setf(ios::right);
 			cout.width(7);
