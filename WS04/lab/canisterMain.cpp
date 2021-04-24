@@ -1,10 +1,3 @@
-// Workshop 4:
-// Version: 0.9
-// Date: 2021/02/04
-// Author: Fardad Soleimanloo
-// Description:
-// This file tests the lab section of your workshop
-/////////////////////////////////////////////
 #include <iostream>
 #include "Canister.h"
 using namespace std;
