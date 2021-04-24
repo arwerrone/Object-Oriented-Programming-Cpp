@@ -1,10 +1,3 @@
-/**
- * Name:			Angelo Dikon Wong
- * Student ID:		14802199
- * Seneca email:	adikon-wong@myseneca.ca
- * Section:			OOP244 - NGG
- **/
-
 #ifndef SDDS_CALORIELIST_H_
 #define SDDS_CALORIELIST_H_
 #include "Food.h"
@@ -14,7 +7,6 @@ namespace sdds {
         Food* m_items;
         int m_noOfFoods;
         int m_itemsAdded;
-        //double totalTax()const;
         int totalCalories()const;
         void Title()const;
         void footer()const;
@@ -27,4 +19,4 @@ namespace sdds {
         void deallocate();
     };
 }
-#endif // !SDDS_TRANSCRIPT_H
+#endif
