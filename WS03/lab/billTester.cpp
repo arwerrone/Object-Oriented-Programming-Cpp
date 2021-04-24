@@ -1,11 +1,3 @@
-// Workshop 3: 
-// Version: 0.9
-// Date: 2021/1/31
-// Author: Fardad Soleimanloo
-// Description:
-// This file tests the lab section of your workshop
-// Do not modify this code when submitting
-/////////////////////////////////////////////
 #include "Bill.h"
 using namespace sdds;
 int main() {
