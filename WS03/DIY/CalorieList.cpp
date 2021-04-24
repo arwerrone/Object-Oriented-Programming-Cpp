@@ -1,10 +1,3 @@
-/**
- * Name:			Angelo Dikon Wong
- * Student ID:		14802199
- * Seneca email:	adikon-wong@myseneca.ca
- * Section:			OOP244 - NGG
- **/
-
 #include <iostream>
 #include "cstring.h"
 #include "CalorieList.h"
@@ -17,22 +10,13 @@ namespace sdds {
 	}
 
 	bool CalorieList::isValid()const {
-		bool valid = m_items != nullptr;//&& m_title[0] != '\0';
+		bool valid = m_items != nullptr;
 
 		for (int i = 0; valid && i < m_noOfFoods; i++) {
 			valid = m_items[i].isValid();
 		}
 		return valid;
 	}
-
-	/*double CalorieList::totalTax()const {
-		double tax = 0;
-		for (int i = 0; i < m_noOfFoods; i++)
-		{
-			tax += m_items[i].tax();
-		}
-		return tax;
-	}*/
 
 	int CalorieList::totalCalories()const {
 		int cal = 0;
@@ -46,12 +30,6 @@ namespace sdds {
 	void CalorieList::Title()const {
 		cout << "+----------------------------------------------------+" << endl;
 		if (isValid()) {
-			/*cout << "| ";
-			cout.setf(ios::left);
-			cout.width(36);
-			cout << m_title;
-			cout.unsetf(ios::left);
-			cout << " |" << endl;*/
 			cout << "|  Daily Calorie Consumption                         |" << endl;
 			cout << "+--------------------------------+------+------------+" << endl;
 			cout << "| Food name                      | Cals | When       |" << endl;
@@ -71,7 +49,6 @@ namespace sdds {
 		if (isValid()) {
 			cout << "|    Total Calories for today: ";
 			cout.width(8);
-			//cout.precision(2);
 			cout.setf(ios::right);
 			cout.setf(ios::fixed);
 			cout << totalCalories();
