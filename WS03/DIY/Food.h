@@ -13,7 +13,6 @@ namespace sdds {
         void display()const;
         bool isValid()const;
         int calories()const;
-        //double tax()const;
     };
 }
 
