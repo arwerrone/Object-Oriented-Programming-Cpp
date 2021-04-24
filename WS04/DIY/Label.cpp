@@ -1,10 +1,3 @@
-/**
- * Name:			Angelo Dikon Wong
- * Student ID:		148021199
- * Seneca email:	adikon-wong@myseneca.ca
- * Section: OOP244 - NGG
- **/
-
 #include <iostream>
 #include "Label.h"
 #include "cstring.h"
@@ -57,7 +50,6 @@ namespace sdds {
 	}
 
 	std::ostream& Label::printLabel()const {
-		//int len = sizeof(m_conent);
 		int len = 0;
 		if (m_conent != nullptr) {
 
