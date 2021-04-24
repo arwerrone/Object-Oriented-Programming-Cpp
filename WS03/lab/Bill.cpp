@@ -1,10 +1,3 @@
-/**
- * Name:			Angelo Dikon Wong
- * Student ID:		14802199
- * Seneca email:	adikon-wong@myseneca.ca
- * Section:			OOP244 - NGG
- **/
-
 #include <iostream>
 #include "cstring.h"
 #include "Bill.h"
@@ -77,7 +70,6 @@ namespace sdds {
 			cout << " |" << endl;
 			cout.unsetf(ios::right);
 			cout.unsetf(ios::fixed);
-			////////////////////////////////
 			cout << "|              Total Price: ";
 			cout.width(10);
 			cout.precision(2);
@@ -87,7 +79,6 @@ namespace sdds {
 			cout << " |" << endl;
 			cout.unsetf(ios::right);
 			cout.unsetf(ios::fixed);
-			////////////////////////////////
 			cout << "|          Total After Tax: ";
 			cout.width(10);
 			cout.precision(2);
@@ -97,7 +88,6 @@ namespace sdds {
 			cout << " |" << endl;
 			cout.unsetf(ios::right);
 			cout.unsetf(ios::fixed);
-			/// ///////////
 			cout << "+--------------------------------------+" << endl;
 		}
 		else {
@@ -105,7 +95,6 @@ namespace sdds {
 			cout << "+--------------------------------------+" << endl;
 		}
 	}
-	///////////////////////PUBLIC::::://////////////
 
 	void Bill::init(const char* title, int noOfItems) {
 		if (title != nullptr && noOfItems > 0) {
