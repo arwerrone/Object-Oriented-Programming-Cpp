@@ -1,12 +1,3 @@
-// Workshop 3: 
-// Version: 0.9
-// Date: 2021/1/31
-// Author: Fardad Soleimanloo
-// Description:
-// This file tests the lab section of your workshop
-//    for submission
-// Do not modify this code when submitting
-/////////////////////////////////////////////
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <cstdio>
