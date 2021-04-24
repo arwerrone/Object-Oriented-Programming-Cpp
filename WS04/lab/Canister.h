@@ -1,19 +1,12 @@
-/**
- * Name:			Angelo Dikon Wong
- * Student ID:		148021199
- * Seneca email:	adikon-wong@myseneca.ca
- * Section: OOP244 - NGG
- **/
-
 #ifndef SDDS_BOX_H
 #define SDDS_BOX_H
 #include <iostream>
 namespace sdds {
    class Canister {
       char* m_contentName;
-      double m_diameter; // in centimeters 
-      double m_hieght;   // in centimeters
-      double m_contentVolume;  // in CCs
+      double m_diameter;
+      double m_hieght;
+      double m_contentVolume;
       bool m_usable;
       void setToDefault();
       void setName(const char* Cstr);
@@ -35,4 +28,4 @@ namespace sdds {
    };
 }
 
-#endif // !SDDS_BOX_H
+#endif
