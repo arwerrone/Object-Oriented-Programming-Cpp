@@ -1,0 +1,8 @@
+/**
+ * Name:			Angelo Dikon Wong
+ * Student ID:		14802199
+ * Seneca email:	adikon-wong@myseneca.ca
+ * Section:			OOP244 - NGG
+ **/
+
+	In this workshop, I have come through class type, which is something kind of similar to the struct, the main difference is that class by default is private, and struct is public, however, I have learned how to define some private functions into a public, and access it. Mainly instantiate an object of class type, kind of confusing in the beginning, but with some great examples, the learning comes. Accessing data within an object class type is required to mention the object name to be able to access the data, this is just the basic of what I have learned, but I'm looking forward to practicing more and learn more about it. Finally, personally, I have difficulties with names, so the learning is difficult when the name of it is mentioned almost all the time, the only way I can learn about something is by practicing, this workshop was an example for me, so I could learn about object and access data.
