@@ -1,10 +1,3 @@
-﻿/**
- * Name:                Angelo Dikon Wong
- * Student ID:          148021199
- * Seneca email:        adikon-wong@myseneca.ca
- * Section:             OOP244 - NGG
- **/
-
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include "Mark.h"
@@ -43,8 +36,7 @@ namespace sdds {
 		}
 		return *this;
 	}
-	///Possivel erro devido a falta de informação 
-	/// olhando exemplo o n nao faz sentido
+
 	Mark& Mark::operator=(int i) {
 		m_value = i;
 		Validate();
