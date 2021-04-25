@@ -1,11 +1,3 @@
-// Workshop 5:
-// Version: 1.0
-// Date: 2021/02/13
-// Author: Fardad Soleimanloo
-// Description:
-// This file tests the DIY section of your workshop
-/////////////////////////////////////////////
-
 #include <iostream>
 #include "Mark.h"
 using namespace std;
