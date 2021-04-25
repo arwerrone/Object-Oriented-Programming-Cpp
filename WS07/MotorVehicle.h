@@ -1,10 +1,3 @@
-/**
- * Name:			Angelo Dikon Wong
- * Student ID:		14802199
- * Seneca email:	adikon-wong@myseneca.ca
- * Section:			OOP244 - NGG
- **/
-
 #ifndef SDDS_MOTORVEHICLE_H__
 #define SDDS_MOTORVEHICLE_H__
 #include <iostream>
