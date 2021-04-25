@@ -1,10 +1,3 @@
-/**
- * Name:			Angelo Dikon Wong
- * Student ID:		14802199
- * Seneca email:	adikon-wong@myseneca.ca
- * Section:			OOP244 - NGG
- **/
-
 #ifndef SDDS_TEXTFILE_H__
 #define SDDS_TEXTFILE_H__
 #include <iostream>
@@ -19,7 +12,6 @@ namespace sdds {
       Line& operator=(const char*);
       operator const char* ()const;
       friend class TextFile;
-      // copy and copy assignment prevention goes here
       Line(const Line&) = delete;
       void operator=(const Line&) = delete;
    };
@@ -51,4 +43,4 @@ namespace sdds {
    std::istream& operator>>(std::istream& istr, TextFile& text);
 
 }
-#endif // !SDDS_TEXTFILE_H__
+#endif
