@@ -1,10 +1,3 @@
-/**
- * Name:                Angelo Dikon Wong
- * Student ID:          148021199
- * Seneca email:        adikon-wong@myseneca.ca
- * Section:             OOP244 - NGG
- **/
-
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include "Account.h"
@@ -15,7 +8,7 @@ namespace sdds {
       m_number = -1;
       m_balance = 0.0;
    }
-   // New account
+
    Account::Account() {  
       m_number = 0;
       m_balance = 0.0;
