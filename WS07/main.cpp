@@ -1,15 +1,8 @@
-// Workshop 7: Inheritance
-// Version: 1.0
-// Date: 2021-03-15
-// Author: Cornel
-// Revised: Fardad
-/////////////////////////////////////////////
-
 #include<iostream>
 #include "Truck.h"
-#include "Truck.h" // intentional
+#include "Truck.h"
 #include "MotorVehicle.h"
-#include "MotorVehicle.h" // intentional
+#include "MotorVehicle.h"
 
 using namespace std;
 using namespace sdds;
@@ -30,7 +23,6 @@ void printHeader(const char* title)
 
 void moveAndLoad(Truck& aTruck, const char* destination, double cargo)
 {
-	//cout << aTruck << endl;
 	aTruck.moveTo(destination);
 	if (aTruck.addCargo(cargo))
 		cout << "Cargo loaded!\n";
@@ -41,7 +33,6 @@ void moveAndLoad(Truck& aTruck, const char* destination, double cargo)
 
 void moveAndUnload(Truck& aTruck, const char* destination)
 {
-	//cout << aTruck << endl;
 	aTruck.moveTo(destination);
 	if (aTruck.unloadCargo())
 		cout << "Cargo unloaded!\n";
