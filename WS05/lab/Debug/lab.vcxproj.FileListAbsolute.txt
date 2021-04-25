@@ -1,0 +1,2 @@
+C:\Users\angel\Desktop\AULAS\2 SEMESTRE\OOP 244\WS05\lab\Debug\lab.exe
+C:\Users\angel\Desktop\AULAS\2 SEMESTRE\OOP 244\WS05\lab\Debug\lab.pdb

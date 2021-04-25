@@ -1,0 +1,9 @@
+/**
+ * Name:			Angelo Dikon Wong
+ * Student ID:			148021199
+ * Seneca email:		adikon-wong@myseneca.ca
+ * Section: OOP244 - NGG
+ **/
+
+	In this workshop, I have learned about operators overloading, different from the other workshop, it was easy I must say, I must pay my gratitude for my professor's explanation, it was easy to learn, and when applying what I have just learned wasn't difficult at all, a binary operator at the beginning was confusing, but after some examples, I got what it uses for.
+Type conversion and unary operators were the same levels of difficulty as the binary, just a little bit different when comes to the creation of it. The most difficult part of this workshop, in my opinion, was the helper function, since it is out of the class I got confused about how to create it and how am I going to get the data to do what the function should do, but I managed to do it, I just look for the notes and I got the idea of how to do it, we must call something that has a relation with the class, for example, the lab helper function that takes the left and right to sum it I couldn't get the value of it, unless if I call the binary operator that I created, so it returns the value and then finally I could make the sum of both values. Ultimately, this workshop was easy, wasn't stressful, and I hope other students think the same.
