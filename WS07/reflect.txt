@@ -1,0 +1,13 @@
+/**
+ * Name:			Angelo Dikon Wong
+ * Student ID:			148021199
+ * Seneca email:		adikon-wong@myseneca.ca
+ * Section: OOP244 - NGG
+ **/
+
+In this workshop, I learned about delivered classes and functions in hierarchy, I learned how to inherit a delivered class from a base class, and this is a useful thing, is a kind of code saving or code reusing. Instead of writing such data member to a class, you can simply call the base class, and this also applies to function, you can shadow the base function and implement it more specifically for the delivered class. For example, in this workshop, the function read from the "Truck" module shadows the read function from the base class "MotorVehicle" class, and inside it is calling the read function from the base class and implementing more information to read, this is pretty much the same thing for the helper operators, like the ostream from the truck module, it calls the write function which calls the write function from the MotorVehicle module. All this is possible to the delivered class.
+
+Talking about milestone now, the milestone is pretty much recapturing what we learned previously in this course. The utils module is full of functions of utilities, all of them have different logics, some of them more difficult to program than the other, because one function is calling the other function, so it makes it harder to debug depending on the situation.
+
+The time module was not that hard as utils, in my opinion, but it was longer, this module is more about logic on how you are going to get that result, so it was just putting math in programming.
+I hope the next milestones don't be difficult.
