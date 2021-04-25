@@ -1,10 +1,3 @@
-/**
- * Name:			Angelo Dikon Wong
- * Student ID:		14802199
- * Seneca email:	adikon-wong@myseneca.ca
- * Section:			OOP244 - NGG
- **/
-
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -29,7 +22,7 @@ namespace sdds {
    void TextFile::setEmpty() {
        delete[] m_textLines;
        m_textLines = nullptr;
-       delete[] m_filename;         //nao tenho certeza se e, se n for tira o []... provavelmente n
+       delete[] m_filename;
        m_filename = nullptr;
        m_noOfLines = 0;
    }
@@ -93,7 +86,6 @@ namespace sdds {
    }
 
    TextFile::TextFile(const char* filename, unsigned pageSize) {
-       //:m_pageSize{pageSize}, m_textLines{nullptr}, m_noOfLines{0}{
        m_pageSize = pageSize;
        if (filename != nullptr) {
            setFilename(filename);
@@ -103,7 +95,6 @@ namespace sdds {
    }
 
    TextFile::TextFile(const TextFile& text){
-       //:m_pageSize{text.m_pageSize}, m_textLines{nullptr}, m_noOfLines{0} {
        m_pageSize = text.m_pageSize;
        if (text.m_filename != nullptr) {
            setFilename(text.m_filename, true);
