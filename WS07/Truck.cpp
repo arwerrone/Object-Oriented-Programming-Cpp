@@ -1,10 +1,3 @@
-/**
- * Name:			Angelo Dikon Wong
- * Student ID:		14802199
- * Seneca email:	adikon-wong@myseneca.ca
- * Section:			OOP244 - NGG
- **/
-
 #define _CRT_SECURE_NO_WARNINGS
 #include "MotorVehicle.h"
 #include "Truck.h"
@@ -22,24 +15,24 @@ namespace sdds {
 
 	bool Truck::addCargo(double cargo) {
 		bool ok = false;
-		double oldcargo = m_cargo;					// to keep track of the cargo
+		double oldcargo = m_cargo;
 		if (cargo <= m_capacity) {
-			m_cargo += cargo;						// adding cargo
+			m_cargo += cargo;
 			ok = true;
 		}
-		if ((m_cargo + cargo) > m_capacity) {		// cheking if cargo does exceed the capacity
-			m_cargo = m_capacity;					// if exceeded, set cargo to the maximum
+		if ((m_cargo + cargo) > m_capacity) {
+			m_cargo = m_capacity;
 		}
-		if (oldcargo == m_capacity) {				// if the old cargo was already in the maximum
-			ok = false;								// returns false because it was not possible to add cargo
+		if (oldcargo == m_capacity) {
+			ok = false;
 		}
 		return ok;
 	}
 
 	bool Truck::unloadCargo() {	
-		bool unload = this->m_cargo > 0;	//Meaning that has something to unload
+		bool unload = this->m_cargo > 0;
 		if (unload) {						
-			m_cargo = 0;					//after unloading sets 0
+			m_cargo = 0;
 		}
 		return unload;						
 	}
