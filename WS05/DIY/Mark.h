@@ -1,10 +1,3 @@
-/**
- * Name:                Angelo Dikon Wong
- * Student ID:          148021199
- * Seneca email:        adikon-wong@myseneca.ca
- * Section:             OOP244 - NGG
- **/
-
 #ifndef SDDS_MARK_H_
 #define SDDS_MARK_H_
 #include <iostream>
