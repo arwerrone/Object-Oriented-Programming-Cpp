@@ -1,20 +1,3 @@
-// Workshop 9:
-// Version: 1.0
-// Date: 2021-02-26
-// Author: Fardad Soleimanloo
-// Description:
-// This file tests the lab section of your workshop
-// Modify the main function as stated in the workshop description
-// and the comments stated in the main function
-/////////////////////////////////////////////
-
-/**
- * Name:			Angelo Dikon Wong
- * Student ID:			148021199
- * Seneca email:		adikon-wong@myseneca.ca
- * Section: OOP244 - NGG
- **/
-
 #include <iostream>
 #include "Car.h"
 #include "Employee.h"
@@ -38,12 +21,9 @@ int main() {
    Collection<Car> Cres;
    Collection<Student> Sres;
    Collection<Employee>Eres;
-
-   // Call the  listArrayElements to list all cars, Title: "All the cars:"
+   
    listArrayElements("All the cars:",C,7);
    cout << "Searching for Tesla cars: " << endl;
-   // Call the search function to search the array C 
-   // and store the matches in Cres passing "Tesla" as the key argument
    if (search(Cres, C, 8, "Tesla")) {
       cout << Cres.size() << " match" << (Cres.size() == 1 ? "" : "es") << " found:" << endl;
       for (int i = 0; i < Cres.size(); i++) {
@@ -55,12 +35,9 @@ int main() {
    }
    cout << endl;
 
-   // Call the  listArrayElements to list all the students, Title: "All students:"
    listArrayElements("All students:", S, 6);
 
    cout << "Searching for students with 4.0 Gpa:" << endl;
-   // Call the search function to search the array S 
-   // and store the matches in Sres passing 4.0 as the key argument
    if (search(Sres, S, 6, 4.0)) {
       cout << Sres.size() << " match" << (Sres.size() == 1 ? "" : "es") << " found:" << endl;
       for (int i = 0; i < Sres.size(); i++) {
@@ -72,12 +49,9 @@ int main() {
    }
    cout << endl;
 
-   // Call the  listArrayElements to list all the employees, Title: "All employees:"
    listArrayElements("All employees:", E, 6);
 
    cout << "Searching for employees who share office number 111:" << endl;
-   // Call the search function to search the array E 
-   // and store the matches in Eres passing 111 as the key argument
    if (search(Eres, E, 6, 111)) {
       cout << Eres.size() << " match" << (Eres.size() == 1 ? "" : "es") << " found:" << endl;
       for (int i = 0; i < Eres.size(); i++) {
@@ -90,8 +64,6 @@ int main() {
    cout << endl;
 
    cout << "Searching for employees who share office number 555:" << endl;
-   // Call the search function to search the array E 
-   // and store the matches in Eres passing 555 as the key argument
    if (search(Eres, E, 6, 555)) {
       cout << Eres.size() << " match" << (Eres.size() == 1 ? "" : "es") << " found:" << endl;
       for (int i = 0; i < Eres.size(); i++) {
@@ -104,8 +76,6 @@ int main() {
    cout << endl;
 
    int a[]{ 10,20,30,40,50,60 };
-   // Call the  listArrayElements to list all the integers in the array a
-   // Title: "INTEGERS"
 
    listArrayElements("INTEGERS",a,6);
    return 0;
