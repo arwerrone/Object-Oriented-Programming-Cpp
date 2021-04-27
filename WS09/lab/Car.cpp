@@ -1,9 +1,3 @@
-// Workshop 9:
-// Car.cpp
-// 2021-03-26
-// Version: 1.0 
-// Author: Fardad Soleimanloo
-/////////////////////////////////////////////
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <cstring>
