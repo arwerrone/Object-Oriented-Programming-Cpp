@@ -1,9 +1,3 @@
-// Workshop 9:
-// Student.h
-// 2021-03-26
-// Version: 1.0 
-// Author: Fardad Soleimanloo
-/////////////////////////////////////////////
 #include <iostream>
 #ifndef SDDS_STUDENT_H_
 #define SDDS_STUDENT_H_
@@ -22,5 +16,4 @@ namespace sdds {
       bool operator==(double gpa)const;
    };
 }
-#endif // !SDDS_STUDENT_H_
-
+#endif
