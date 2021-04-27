@@ -1,9 +1,3 @@
-// Workshop 9:
-// Collection template
-// 2021-03-26
-// Version: 1.0 
-// Author: Fardad Soleimanloo
-/////////////////////////////////////////////
 #ifndef SDDS_COLLECTION_H_
 #define SDDS_COLLECTION_H_
 namespace sdds {
@@ -79,7 +73,4 @@ namespace sdds {
    }
 }
 
-#endif // !SDDS_COLLECTION_H_
-
-
-
+#endif
