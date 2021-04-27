@@ -1,7 +1,0 @@
-﻿  cstring.cpp
-  HtmlText.cpp
-  Text.cpp
-  w10Tester.cpp
-  Generating Code...
-w10Tester.obj : error LNK2019: unresolved external symbol "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl sdds::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class sdds::HtmlText const &)" (??6sdds@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV12@ABVHtmlText@0@@Z) referenced in function "class std::basic_ofstream<char,struct std::char_traits<char> > && __cdecl std::operator<<<class std::basic_ofstream<char,struct std::char_traits<char> >,class sdds::HtmlText,0>(class std::basic_ofstream<char,struct std::char_traits<char> > &&,class sdds::HtmlText const &)" (??$?6V?$basic_ofstream@DU?$char_traits@D@std@@@std@@VHtmlText@sdds@@$0A@@std@@YA$$QAV?$basic_ofstream@DU?$char_traits@D@std@@@0@$$QAV10@ABVHtmlText@sdds@@@Z)
-C:\Users\angel\Desktop\AULAS\2 SEMESTRE\OOP 244\WS10\lab\Debug\lab.exe : fatal error LNK1120: 1 unresolved externals
