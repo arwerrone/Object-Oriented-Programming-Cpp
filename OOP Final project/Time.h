@@ -1,10 +1,3 @@
-/**
- * Name:			Angelo Dikon Wong
- * Student ID:		14802199
- * Seneca email:	adikon-wong@myseneca.ca
- * Section:			OOP244 - NGG
- **/
-
 #ifndef SDDS_TIMER_H
 #define SDDS_TIMER_H
 #include <iostream>
@@ -35,5 +28,4 @@ namespace sdds {
    std::istream& operator>>(std::istream& istr, Time& D);
 }
 
-#endif // !SDDS_TIME_H
-
+#endif
