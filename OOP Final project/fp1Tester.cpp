@@ -1,12 +1,3 @@
-// Final Project Tester
-// file: fp1Tester.cpp
-// Version: 0.9
-// Date: 2021-03-26
-// Author: Fardad 
-// Description:
-// This file tests the Final project 
-// with no data file
-/////////////////////////////////////////////
 #include <iostream>
 #include <fstream>
 #include "PreTriage.h"
@@ -20,4 +11,3 @@ int main() {
    P.run();
    return 0;
 }
-
