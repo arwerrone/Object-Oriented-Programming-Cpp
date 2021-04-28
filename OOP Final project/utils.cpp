@@ -1,10 +1,3 @@
-/**
- * Name:			Angelo Dikon Wong
- * Student ID:		14802199
- * Seneca email:	adikon-wong@myseneca.ca
- * Section:			OOP244 - NGG
- **/
-
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <cstdlib>
@@ -15,7 +8,7 @@
 #include "Time.h"
 using namespace std;
 namespace sdds {
-   bool debug = false;  // made global in utils.h
+   bool debug = false;
 
    int getInt(const char* prompt) {
        bool badEntry;
@@ -60,13 +53,10 @@ namespace sdds {
    }
 
    char* getcstr(const char* prompt) {
-       //char* cstr[] = nullptr;
        if (prompt != nullptr) {
            string str;
            cout << prompt;
            getline(cin, str, '\n');
-           //delete[] cstr;
-           //cstr = nullptr;
            char* cstr = new char[str.length() + 1];
            strcpy(cstr, str.c_str());
            return cstr;
@@ -81,7 +71,7 @@ namespace sdds {
          cout << "Enter current time: ";
          do {
             cin.clear();
-            cin >> t;   // needs extraction operator overloaded for Time
+            cin >> t;
             if (!cin) {
                cout << "Invlid time, try agian (HH:MM): ";
                cin.clear();
