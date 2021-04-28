@@ -1,10 +1,3 @@
-/**
- * Name:			Angelo Dikon Wong
- * Student ID:		14802199
- * Seneca email:	adikon-wong@myseneca.ca
- * Section:			OOP244 - NGG
- **/
-
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include "Patient.h"
@@ -68,7 +61,6 @@ namespace sdds {
 		return ostr;
 	}
 
-	//My implemented function
 	void Patient::setName(const char* value) {
 		delete[] m_name;
 		m_name = nullptr;
@@ -81,9 +73,6 @@ namespace sdds {
 		int thenumber = 0;
 		istr.getline(thename,99,',');
 		setName(thename);
-		//m_OHIPnum = getInt(100000000,999999999);
-		//Hello prof, I tried to use the getint utils, but it kept reading the comma,
-		//so I changed it in the way that it works, if this is not acceptable, please tell me
 		istr >> thenumber;
 		if (thenumber >= 100000000 && thenumber <= 999999999) {
 			m_OHIPnum = thenumber;
