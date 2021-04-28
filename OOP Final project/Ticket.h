@@ -1,10 +1,3 @@
-/**
- * Name:			Angelo Dikon Wong
- * Student ID:		14802199
- * Seneca email:	adikon-wong@myseneca.ca
- * Section:			OOP244 - NGG
- **/
-
 #ifndef SDDS_TICKET_H_
 #define SDDS_TICKET_H_
 #include "Time.h"
@@ -24,4 +17,4 @@ namespace sdds {
       std::istream& read(std::istream& istr);
    };
 }
-#endif // !SDDS_TICKET_H_
+#endif
