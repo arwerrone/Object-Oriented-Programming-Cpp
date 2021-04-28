@@ -1,11 +1,3 @@
-/**
- * Name:			Angelo Dikon Wong
- * Student ID:		14802199
- * Seneca email:	adikon-wong@myseneca.ca
- * Section:			OOP244 - NGG
- **/
-
-
 #ifndef SDDS_COVIDPATIENT_H_
 #define SDDS_COVIDPATIENT_H_
 #include "Patient.h"
@@ -21,7 +13,4 @@ namespace sdds {
 	};
 
 }
-#endif // !SDDS_COVIDPATIENT_H_
-
-
-
+#endif
