@@ -1,10 +1,3 @@
-/**
- * Name:			Angelo Dikon Wong
- * Student ID:		14802199
- * Seneca email:	adikon-wong@myseneca.ca
- * Section:			OOP244 - NGG
- **/
-
 #ifndef SDDS_HTMLTEXT_H__
 #define SDDS_HTMLTEXT_H__
 #include "Text.h"
@@ -23,4 +16,4 @@ namespace sdds {
    };
    std::ostream& operator<<(std::ostream& os,const HtmlText& right);
 }
-#endif // !SDDS_HTMLTEXT_H__
+#endif
