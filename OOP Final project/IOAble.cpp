@@ -1,10 +1,3 @@
-/**
- * Name:			Angelo Dikon Wong
- * Student ID:		14802199
- * Seneca email:	adikon-wong@myseneca.ca
- * Section:			OOP244 - NGG
- **/
-
 #include <iostream>
 #include "IOAble.h"
 
