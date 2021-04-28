@@ -1,10 +1,3 @@
-// Workshop 10:
-// Version: 1.0
-// Date: 2021-04-04
-// Author: Fardad Soleimanloo
-// Description:
-// This file tests the lab section of your workshop
-/////////////////////////////////////////////
 #include <iostream>
 #include <fstream>
 #include "HtmlText.h"
