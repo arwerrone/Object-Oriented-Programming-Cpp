@@ -1,10 +1,3 @@
-/**
- * Name:			Angelo Dikon Wong
- * Student ID:		14802199
- * Seneca email:	adikon-wong@myseneca.ca
- * Section:			OOP244 - NGG
- **/
-
 #ifndef SDDS_PATIENT_H_
 #define SDDS_PATIENT_H_
 #include <iostream>
@@ -31,12 +24,10 @@ namespace sdds {
 		void setArrivalTime();
 		operator Time() const;
 		int number() const;
-		//pure virtual over
 		std::ostream& csvWrite(std::ostream& ostr)const;
 		std::istream& csvRead(std::istream& istr);
 		std::ostream& write(std::ostream& ostr)const;
 		std::istream& read(std::istream& istr);
-		// my implemented function
 		void setName(const char* value);
 		
 	};
