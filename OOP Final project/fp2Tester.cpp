@@ -1,12 +1,3 @@
-// Final Project Tester
-// file: fp2Tester.cpp
-// Version: 0.9
-// Date: 2021-03-26
-// Author: Fardad 
-// Description:
-// This file tests the Final project 
-// overall functionality
-/////////////////////////////////////////////
 #include <iostream>
 #include <fstream>
 #include "PreTriage.h"
