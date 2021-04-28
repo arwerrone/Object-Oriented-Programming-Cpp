@@ -1,10 +1,3 @@
-/**
- * Name:			Angelo Dikon Wong
- * Student ID:		14802199
- * Seneca email:	adikon-wong@myseneca.ca
- * Section:			OOP244 - NGG
- **/
-
 #ifndef SDDS_UTILS_H_
 #define SDDS_UTILS_H_
 #include <iostream>
@@ -14,7 +7,7 @@ namespace sdds {
    int getInt(int min, int max, const char* prompt = nullptr, const char* errorMessage = nullptr,
        bool showRangeAtError = true);
    char* getcstr(const char* prompt = nullptr);
-   int getTime(); // returns the time of day in minutes
+   int getTime();
 
    template <typename type>
    void removeDynamicElement(type* array[], int index, int& size) {
@@ -25,5 +18,4 @@ namespace sdds {
        size--;
    }
 }
-#endif // !SDDS_UTILS_H_
-
+#endif
