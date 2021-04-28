@@ -1,10 +1,3 @@
-/**
- * Name:			Angelo Dikon Wong
- * Student ID:		14802199
- * Seneca email:	adikon-wong@myseneca.ca
- * Section:			OOP244 - NGG
- **/
-
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include "PreTriage.h"
@@ -19,8 +12,6 @@ namespace sdds {
 	PreTriage::PreTriage(const char* dataFilename)
 		:m_appMenu("General Hospital Pre-Triage Application\n1- Register\n2- Admit", 2)
 		, m_pMenu("Select Type of Admittance:\n1- Covid Test\n2- Triage", 2)
-		//, m_averCovidWait(15)
-		//, m_averTriageWait(5)
 	{
 		delete[] m_dataFilename;
 		m_dataFilename= nullptr;
@@ -155,8 +146,6 @@ namespace sdds {
 				cout << "******************************************" << endl;
 				m_lineup[m_lineupSize]->write(cout);
 				cout << "Estimated Wait Time: ";
-				//Time tina;
-				//tina = getWaitTime(*m_lineup[m_lineupSize]);
 				cout << getWaitTime(*m_lineup[m_lineupSize]);
 				cout << endl << "******************************************" << endl << endl;
 				m_lineupSize++;
