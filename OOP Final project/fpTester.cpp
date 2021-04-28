@@ -1,11 +1,3 @@
-// Final Project Tester
-// file: fpTester.cpp
-// Version: 0.8
-// Date: 2021-03-26
-// Author: Fardad 
-// Description:
-// This file tests the Final project
-/////////////////////////////////////////////
 #include <iostream>
 #include <fstream>
 #include <cstdlib>
@@ -45,10 +37,10 @@ void fp3tester() {
    P.run();
 }
 int main() {
-   //fp1tester();
-   //displayFile("data.csv");
-   //fp3tester();
-   //displayFile("bigdata.csv"); 
+   fp1tester();
+   displayFile("data.csv");
+   fp3tester();
+   displayFile("bigdata.csv"); 
    fp2tester();
    displayFile("smalldata.csv");
    return 0;
